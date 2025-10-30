@@ -1,0 +1,93 @@
+* {
+    font-size: 16px;
+    color: #4B4B4B;
+}
+
+.header {
+    max-width: 1512px;
+    height: 53px;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+h1 {
+    width: 152px;
+    height: 33px;
+    margin: 10px 20px;
+    font-size: 30px;
+    font-family: 'STIX Two Math', 'Cambria Math', serif;
+    font-style: italic;
+    color: #F5C800;
+}
+
+input[type="text"],
+input[type="search"],
+input[type="number"],
+input[type="email"],
+textarea {
+    color: #4B4B4B;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+input[type="text"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    color: #4B4B4B;
+    outline: none;
+}
+
+input[type="text"]::placeholder,
+input[type="search"]::placeholder,
+input[type="number"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+    color: #E0DFDE;
+}
+
+a, button {
+    box-shadow: 0 4px 8px #0000001A;
+}
+
+a:hover, button:hover {
+    box-shadow: 0 4px 8px #0000001A;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 5px;
+}
+
+.pagination li:not(.active) {
+    border: none;
+    border-radius: 50%;
+    background-color: #FFF;
+    padding: 2px 12px;
+}
+
+.pagination li:not(:last-child) {
+    border-right: none;
+}
+
+.pagination a {
+    color: #4B4B4B;
+    text-decoration: none;
+}
+
+.pagination__link {
+    text-decoration: none;
+}
+
+.active {
+    padding: 2px 12px;
+    border: none;
+    border-radius: 50%;
+    background-color: #F5C800;
+    color: #FFF;
+}

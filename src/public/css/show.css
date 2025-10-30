@@ -1,0 +1,147 @@
+.detail-content {
+    max-width: 1512px;
+    padding: 70px 356px;
+    background-color: #F8F8F8;
+}
+
+.detail-content h3 {
+    width: 115px;
+    font-size: 14px;
+}
+
+.detail-content__title {
+    font-size: 14px;
+    color: rgb(0, 85, 255);
+}
+
+.form, .form-group__description{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group__div {
+    width: 100%;
+    display: flex;
+}
+.form-group__img {
+    width: 374px;
+    height: 322px;
+    margin-right: 20px;
+}
+
+.form-group__img img {
+    width: 100%;
+    height: 281px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group_name, .form-group__price {
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group__name-input, .form-group__price-input {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+    padding: 11px 10px;
+}
+
+.form-group__season {
+    width: 314px;
+}
+
+.checkboxes {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group__season-input {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form-group__season-input:checked {
+    border-color: #4B4B4B;
+    background-color: #4B4B4B;
+}
+
+.form-group__season-input:checked::after {
+    content: '✓';
+    position: absolute;
+    top: 0;
+    left: 4px;
+    font-size: 10px;
+    background: #4B4B4B;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.form-group__description {
+    margin-top: 30px;
+}
+
+.form-group__description textarea {
+    width: 100%;
+    height: 160px;
+    margin-top: 10px;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+    padding: 11px 10px;
+}
+
+.form__btn {
+    width: 80%;
+    margin-left: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.form__back-btn {
+    width: 200px;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 10px;
+    background-color: #E0DFDE;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.form__btn-submit {
+    width: 200px;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 10px;
+    background-color: #F5C800;
+}
+
+.form__error-message, .form__error-message span {
+    font-size: 14px;
+    color: #FD0707;
+}

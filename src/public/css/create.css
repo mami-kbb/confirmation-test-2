@@ -1,0 +1,122 @@
+.create-content {
+    max-width: 1512px;
+    padding: 70px 376px;
+    gap: 40px;
+    background-color: #F8F8F8;
+}
+
+.create-content__header h2 {
+    width: 128px;
+    font-size: 32px;
+    color: #333333;
+}
+
+.create-form__required {
+    margin-left: 10px;
+    background-color: #FD0707;
+    padding: 0 5px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.create-form__group {
+    width: 760px;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-form__label {
+    margin-bottom: 10px;
+}
+
+.create-form__name-input, .create-form__price-input {
+    width: 100%;
+    height: 43px;
+    padding: 11px 10px;
+}
+
+.create-form__select {
+    margin-left: 20px;
+    color: #FD0707;
+}
+.create-form__season-inputs {
+    display: flex;
+}
+.create-form__season-input {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.create-form__season-input:checked {
+    border-color: #4B4B4B;
+    background-color: #4B4B4B;
+}
+
+.create-form__season-input:checked::after {
+    content: '✓';
+    position: absolute;
+    top: 0;
+    left: 4px;
+    font-size: 10px;
+    background: #4B4B4B;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.create-form__img-input {
+    text-decoration: none;
+}
+
+.create-form__season-text {
+    margin-right: 30px;
+}
+
+.create-form__description-textarea {
+    width: 100%;
+    height: 160px;
+    padding: 11px 10px;
+    border: 1px solid #E0DFDE;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.create-form__btn {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.create-form__back-btn {
+    width: 200px;
+    height: 50px;
+    padding: 13px 10px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #E0DFDE;
+    text-align: center;
+}
+
+.create-form__send-btn {
+    width: 200px;
+    height: 50px;
+    padding: 13px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F5C800;
+    text-align: center;
+}
+.create-form__error-message, .create-form__error-message span {
+    color: #FD0707;
+    font-size: 14px;
+}
