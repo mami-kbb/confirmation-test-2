@@ -1,7 +1,7 @@
 # もぎたて（商品カタログ）
 ## 環境構築
 ### Dockerビルド
-1. git clone git@github.com:estra-inc/confirmation-test-contact-form.git
+1. git clone git@github.com:mami-kbb/confirmation-test-2.git
 2. DockerDesktopアプリを立ち上げる
 3. docker-compose up -d --build\
 `
